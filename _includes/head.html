@@ -1,0 +1,116 @@
+<head>
+  {% if site.analytics.google %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "{{ site.analytics.google }}");
+  </script>
+  <!-- End Google Analytics -->
+  {% endif %}
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.author }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Custom fonts for this template -->
+  <link href="assets/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <style>
+    @font-face {
+      font-family: 'Pretendard';
+      font-weight: 900;
+      font-display: swap;
+      src: local('Pretendard Black'), url('./woff2/Pretendard-Black.woff2') format('woff2'), url('./woff/Pretendard-Black.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Pretendard';
+      font-weight: 800;
+      font-display: swap;
+      src: local('Pretendard ExtraBold'), url('./woff2/Pretendard-ExtraBold.woff2') format('woff2'), url('./woff/Pretendard-ExtraBold.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Pretendard';
+      font-weight: 700;
+      font-display: swap;
+      src: local('Pretendard Bold'), url('./woff2/Pretendard-Bold.woff2') format('woff2'), url('./woff/Pretendard-Bold.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Pretendard';
+      font-weight: 600;
+      font-display: swap;
+      src: local('Pretendard SemiBold'), url('./woff2/Pretendard-SemiBold.woff2') format('woff2'), url('./woff/Pretendard-SemiBold.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Pretendard';
+      font-weight: 500;
+      font-display: swap;
+      src: local('Pretendard Medium'), url('./woff2/Pretendard-Medium.woff2') format('woff2'), url('./woff/Pretendard-Medium.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Pretendard';
+      font-weight: 400;
+      font-display: swap;
+      src: local('Pretendard Regular'), url('./woff2/Pretendard-Regular.woff2') format('woff2'), url('./woff/Pretendard-Regular.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Pretendard';
+      font-weight: 300;
+      font-display: swap;
+      src: local('Pretendard Light'), url('./woff2/Pretendard-Light.woff2') format('woff2'), url('./woff/Pretendard-Light.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Pretendard';
+      font-weight: 200;
+      font-display: swap;
+      src: local('Pretendard ExtraLight'), url('./woff2/Pretendard-ExtraLight.woff2') format('woff2'), url('./woff/Pretendard-ExtraLight.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Pretendard';
+      font-weight: 100;
+      font-display: swap;
+      src: local('Pretendard Thin'), url('./woff2/Pretendard-Thin.woff2') format('woff2'), url('./woff/Pretendard-Thin.woff') format('woff');
+    }
+  </style>
+
+  <!-- Custom styles for this theme -->
+  <!--<link href="assets/css/agency.min.css" rel="stylesheet">-->
+  <link href="assets/css/agency.css" rel="stylesheet" />
+
+  <!-- Page container change top padding when nav shrinks -->
+  {% if page.layout == "page" %}
+  <style>
+    #pagecontainer {
+      padding-top: 150px;
+    }
+    @media only screen and (max-width: 991px) {
+      #pagecontainer {
+        padding-top: 100px;
+      }
+    }
+  </style>
+  {% endif %}
+</head>
