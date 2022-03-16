@@ -1,18 +1,16 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
-image: assets/img/portfolio/03-full.jpg
-alt: 
+title: 분당수내푸른마을
+subtitle: 2,598세대
+image: assets/img/portfolio/p3.jpg
+alt: Keep Exploring
 
 caption:
-  title: Finish
-  subtitle: Identity
-  thumbnail: assets/img/portfolio/03-thumbnail.jpg
+  title: 분당수내푸른마을
+  subtitle: 2,598세대
+  thumbnail: assets/img/portfolio/p3.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
-
 {:.list-inline}
 - Date: January 2017
-- Client: Finish
-- Category: Identity
+- Client: Explore
+- Category: Graphic Design
 
