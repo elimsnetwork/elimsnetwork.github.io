@@ -23,7 +23,7 @@ description: 엘림에스(주) 공식 홈페이지
 author     : Your Name
 logo:     #optional, defaults to site title
   path: assets\img\clients\logo.png
-  height: 55 #height in px, defaults to 52px
+  height: 52 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
