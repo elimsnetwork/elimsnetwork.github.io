@@ -44,7 +44,7 @@ en: &DEFAULT_EN
 
   timeline:
     title: "회사 연혁"
-    text: ""
+    text: " "
     section: timeline
     # left is the default
     #start_align: "left"
@@ -90,7 +90,7 @@ en: &DEFAULT_EN
         image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
-    end: "엘림에스(주)"
+    end: " "
 
   about:
     title: "About Us"
@@ -154,19 +154,19 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
 
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "문의하기"
+    text: "전화번호 : 02-0000-0000 / 아래 스마트 폼을 통한 문의도 가능합니다"
     section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
+    name: "성함*"
+    name-validation: "성함을 입력해주세요"
+    email: "이메일 주소*"
+    email-validation: "이메일 주소를 입력해주세요"
+    phone: "연락처"
+    phone-validation: "회신할 연락처를 입력해주세요"
+    message: "문의내용*"
+    message-validation: "문의하실 내용을 입력해주세요"
+    subject: "문의사항 폼 작성하기"
+    submit: "문의하기"
 
   footer:
     legal: "Privacy Policy"
