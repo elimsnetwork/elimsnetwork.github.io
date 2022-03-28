@@ -169,7 +169,7 @@ en: &DEFAULT_EN
     submit: "문의하기"
 
   footer:
-    legal: "Privacy Policy"
+    legal: "이용약관"
 
 en-US:
   <<: *DEFAULT_EN
