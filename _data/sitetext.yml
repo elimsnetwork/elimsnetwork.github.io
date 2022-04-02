@@ -160,7 +160,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "문의하기"
-    text: "전화번호 : 02-0000-0000 / 아래 스마트 폼을 통한 문의도 가능합니다"
+    text: "전화번호 : 02-6082-5457 / 아래 스마트 폼을 통한 문의도 가능합니다"
     section: contact
     name: "성함*"
     name-validation: "성함을 입력해주세요"
