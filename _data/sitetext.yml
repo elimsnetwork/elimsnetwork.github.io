@@ -53,47 +53,38 @@ en: &DEFAULT_EN
         year: "2012년 11월 29일"
         #desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/1.jpg
-        alt:
       - title: "경비업 허가"
         year: "2012년 12월 28일"
         #desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/2.jpg
-        alt:
       - title: "건물위생관리업 신고"
         year: "2016년 11월 22일"
         #desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
         image: assets/img/timeline/3.jpg
-        alt: image alt text
       - title: "소독업 신고"
         year: "2018년 3월 22일"
         #desc: "Your description here, **Markdown** is fully supported."
         image: assets/img/timeline/4.jpg
-        alt:
       - title: "일자리우수기업 선정"
         year: "2019년"
         desc: "영등포구청장 표창"
         image: assets/img/timeline/4.jpg
-        alt:
       - title: "통신판매업 신고"
         year: "2019년 7월 23일"
         #desc: "Your description here, **Markdown** is fully supported."
         image: assets/img/timeline/4.jpg
-        alt:
       - title: "주택관리업 등록"
         year: "2020년 4월 23일"
               #desc: "Your description here, **Markdown** is fully supported."
         image: assets/img/timeline/4.jpg
-        alt:
       - title: "경영혁신형 중소기업 확인서"
         year: "2021년 2월 4일"
         desc: "(중소벤처기업부장관)"
         image: assets/img/timeline/4.jpg
-        alt:
       - title: "근로자 파견사업 허가증"
         year: "2022년 5월 13일"
         #desc: "Your description here, **Markdown** is fully supported."
         image: assets/img/timeline/4.jpg
-        alt:
         # you can enforce the alignment
     end: " "
 
