@@ -31,7 +31,7 @@ en: &DEFAULT_EN
         desc: "오피스텔 특성상 소단지이며 연령이 비교적 젊은 특성에 맞추어 최소한의 인원으로 최적의 효과를 낼 수 있도록 노력합니다."
         icon: fas fa-gopuram
       - title: "경비 / 보안"
-        desc: "풍부한 노무경험과 현장에 맞는 보안매뉴얼을 재구성하여 맞춤형 보안시스템을 선보입니다."
+        desc: "풍부한 노무경험과 현장에 맞는 보안메뉴얼을 재구성하여 맞춤형 보안시스템을 선보입니다."
         icon: fas fa-lock
       - title: "건물 미화"
         desc: "풍부한 노무경험과 현장에 맞는 미화매뉴얼을 재구성하여 맞춤형 미화/청결시스템을 선보입니다."
@@ -75,15 +75,14 @@ en: &DEFAULT_EN
         image: assets/img/timeline/4.jpg
       - title: "주택관리업 등록"
         year: "2020년 4월 23일"
-              #desc: "Your description here, **Markdown** is fully supported."
+        image: assets/img/timeline/4.jpg
+      - title: "근로자 파견사업 허가증"
+        year: "2020년"
+        #desc: "Your description here, **Markdown** is fully supported."
         image: assets/img/timeline/4.jpg
       - title: "경영혁신형 중소기업 확인서"
         year: "2021년 2월 4일"
         desc: "(중소벤처기업부장관)"
-        image: assets/img/timeline/4.jpg
-      - title: "근로자 파견사업 허가증"
-        year: "2022년 5월 13일"
-        #desc: "Your description here, **Markdown** is fully supported."
         image: assets/img/timeline/4.jpg
         # you can enforce the alignment
     end: " "
