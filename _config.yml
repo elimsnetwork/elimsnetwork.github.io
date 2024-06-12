@@ -18,7 +18,7 @@ url    : "https://elims.co.kr" # the base hostname & protocol for your site, e.g
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : 엘림에스(유)
-#email      : elims.network.subst@gmail.com #this is also the email contact forms will go to
+email      : hyung94@elims.co.kr #this is also the email contact forms will go to
 description: 엘림에스(유) 공식 홈페이지
 author     : Your Name
 logo:     #optional, defaults to site title
